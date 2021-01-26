@@ -5,6 +5,7 @@ import {Container, Sigin} from './style';
 
 import Button from '../../components/Button';
 import Input from '../../components/Input';
+import RecoverPassword from '../RecoverPassword';
 
 const Login: React.FC = () => (
     <Container>
@@ -15,7 +16,7 @@ const Login: React.FC = () => (
                 <Input name="password" icon={FiLock} type="password" placeholder="Senha"/>
                 <Button type="submit">Entrar</Button>
 
-                <a href="">Esqueci minha senha</a>
+                <a href="RecoverPassword">Esqueci minha senha</a>
             </form>
 
             <a href="">
