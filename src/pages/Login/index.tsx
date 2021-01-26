@@ -1,7 +1,7 @@
 import React from 'react';
 import {FiLogIn, FiMail, FiLock} from 'react-icons/fi';
 
-import {Container, Sigin} from './style';
+import {Container, Sigin} from './styles';
 
 import Button from '../../components/Button';
 import Input from '../../components/Input';
