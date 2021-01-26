@@ -23,39 +23,8 @@ export const Sigin = styled.div`
         width: 340px;
         text-align: center;
 
-
         h1 {
             margin-bottom: 24px;
-        }
-
-        input {
-            background: #FFFFFF;
-            border-radius: 10px;
-            border: 2px solid #35C0ED;
-            padding: 16px;
-            width: 100%;
-            color: #868B8E;
-
-            & + input {
-              margin-top: 8px;
-            }
-        }
-
-        button {
-            background: #35C0ED;
-            height: 56px;
-            border-radius: 10px;
-            border: 0;
-            padding: 0 16px;
-            color: #312E38;
-            width: 100%;
-            font-weight: 500;
-            margin-top: 16px;
-            transition: background-color 0.2s;
-
-            &:hover {
-                background: ${shade(0.2, '#35C0ED')}
-            }
         }
 
         a {
